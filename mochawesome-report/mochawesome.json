@@ -1,0 +1,79 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-09-12T08:01:54.305Z",
+    "end": "2018-09-12T08:01:54.322Z",
+    "duration": 17,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "22057e34-a270-41d2-8453-75119f5e7ac6",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "45d3003a-2fc9-41fc-b058-a10b264873ba",
+        "title": "加法函数的测试",
+        "fullFile": "D:\\Java\\GitHub\\node-test\\test\\add.test.js",
+        "file": "\\test\\add.test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "1 加 1 应该等于 2",
+            "fullTitle": "加法函数的测试 1 加 1 应该等于 2",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(add(1, 1)).to.equal(2);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "0dea7508-04ab-4932-9815-469c1dd165cd",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "0dea7508-04ab-4932-9815-469c1dd165cd"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 1,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
