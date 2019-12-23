@@ -37,6 +37,8 @@ it 用法与describe 一样，第一个参数是名字，第二个是 测试代�
 如果我们在一个js 文件里面，只写一个根 describe ，然后describe 和 it 大量嵌套后，就形成了一颗树。树的非叶子节点都是测试集合，叶子节点即 it ，就是测试用例。
 
 ```
+var expect = require('chai').expect;
+
 describe('my second test suit', function() {
 	it('my second test case', function() {
 		expect(2).to.be.equal(2);

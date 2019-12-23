@@ -5,75 +5,95 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2018-09-12T08:01:54.305Z",
-    "end": "2018-09-12T08:01:54.322Z",
-    "duration": 17,
+    "start": "2019-12-23T08:09:09.372Z",
+    "end": "2019-12-23T08:09:09.380Z",
+    "duration": 8,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
-    "hasSkipped": false,
-    "passPercentClass": "success",
-    "pendingPercentClass": "danger"
+    "hasSkipped": false
   },
-  "suites": {
-    "uuid": "22057e34-a270-41d2-8453-75119f5e7ac6",
-    "title": "",
-    "fullFile": "",
-    "file": "",
-    "beforeHooks": [],
-    "afterHooks": [],
-    "tests": [],
-    "suites": [
-      {
-        "uuid": "45d3003a-2fc9-41fc-b058-a10b264873ba",
-        "title": "加法函数的测试",
-        "fullFile": "D:\\Java\\GitHub\\node-test\\test\\add.test.js",
-        "file": "\\test\\add.test.js",
-        "beforeHooks": [],
-        "afterHooks": [],
-        "tests": [
-          {
-            "title": "1 加 1 应该等于 2",
-            "fullTitle": "加法函数的测试 1 加 1 应该等于 2",
-            "timedOut": false,
-            "duration": 1,
-            "state": "passed",
-            "speed": "fast",
-            "pass": true,
-            "fail": false,
-            "pending": false,
-            "code": "expect(add(1, 1)).to.equal(2);",
-            "err": {},
-            "isRoot": false,
-            "uuid": "0dea7508-04ab-4932-9815-469c1dd165cd",
-            "isHook": false,
-            "skipped": false
-          }
-        ],
-        "suites": [],
-        "passes": [
-          "0dea7508-04ab-4932-9815-469c1dd165cd"
-        ],
-        "failures": [],
-        "pending": [],
-        "skipped": [],
-        "duration": 1,
-        "root": false,
-        "rootEmpty": false,
-        "_timeout": 2000
-      }
-    ],
-    "passes": [],
-    "failures": [],
-    "pending": [],
-    "skipped": [],
-    "duration": 0,
-    "root": true,
-    "rootEmpty": true,
-    "_timeout": 2000
-  },
-  "copyrightYear": 2018
+  "results": [
+    {
+      "uuid": "ef5cddc9-d9bd-495e-a500-c6e87b14a9dc",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "eb360f03-4061-4e01-9edd-6e71a6c2ce48",
+          "title": "my second test suit",
+          "fullFile": "D:\\Java\\GitHub\\node-test\\test\\mocha_lesson\\01_describe.js",
+          "file": "\\test\\mocha_lesson\\01_describe.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "my second test case",
+              "fullTitle": "my second test suit my second test case",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(2).to.be.equal(2);",
+              "err": {},
+              "uuid": "e8051721-9b21-4d22-9d10-2ef2fadef285",
+              "parentUUID": "eb360f03-4061-4e01-9edd-6e71a6c2ce48",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e8051721-9b21-4d22-9d10-2ef2fadef285"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.1.0"
+    }
+  }
 }

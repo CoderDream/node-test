@@ -6,9 +6,22 @@
   "repository": "git@github.com:CoderDream/node-test.git",
   "scripts": {
     "test": "mocha",
-    "test-async": "mocha test/async_test/await_test.js"
+    "test-async": "mocha test/async_test/await_test.js",
+    "mocha_describe": "mocha test/mocha_lesson/01_describe.js",
+    "mocha_report": "mocha test/mocha_lesson/01_describe.js --reporter tap",
+    "mocha_awesome": "mocha test/mocha_lesson/01_describe.js --reporter mochawesome",
+    "mocha_before_after": "mocha test/mocha_lesson/02_before_after.js",
+    "mocha_done": "mocha test/mocha_lesson/03_done.js",
+    "mocha_no_done": "mocha test/mocha_lesson/04_done_fail.js",
+    "mocha_set_timeout": "mocha test/mocha_lesson/05_set_timeout.js",
+    "mocha_timeout": "mocha test/mocha_lesson/06_timeout.js",
+    "mocha_slow": "mocha test/mocha_lesson/07_slow.js",
+    "mocha_todo": "mocha test/mocha_lesson/08_todo.js",
+    "mocha_skip": "mocha test/mocha_lesson/09_skip.js",
+    "mocha_only": "mocha test/mocha_lesson/10_only.js"
   },
   "dependencies": {
+    "request": ">=2.88.0",
     "chai": ">=4.2.0",
     "mem": ">=4.0.0",
     "mocha": ">=6.2.2",
