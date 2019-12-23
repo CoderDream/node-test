@@ -57,7 +57,7 @@ describe('Nothing', function() {
 mocha --reporter tap
 ```
 对应的控制台输出：
-![](images/mocha_01.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/mocha_01.png)
 
 
 该命令，可以在控制台输出一个简明扼要，有层次的 reporter。
@@ -70,7 +70,7 @@ mocha --reporter mochawesome
 ```
 执行命令后， 该插件会生成 一个 mochawesome-report 文件夹，里面含义很直观的一份测试结果。如下：
 
-![](images/mocha_02.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/mocha_02.png)
 
 ### watch
 TDD 要求我们不停地重复 “测试-编码-重构-测试”，显而易见需要很多次运行测试用例，因此最好的做法就是当我们改了代码，mocha 自动帮我们运行测试用例，如下
@@ -160,7 +160,7 @@ describe('---Root layer', function() {
 ```  
 
 在控制台中可以看到如下输出：
-![](images/mocha_03.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/mocha_03.png)
 
 选中的两个case 属于内层的，不过这两个case运行前，依旧运行了外层的 beforeEach。
 
@@ -187,7 +187,7 @@ it('Testing asynchronous code', function(done){
 注意：
 如果没有显示调用 done()。 会等到超时报错，像下面这样。
 
-![](images/mocha_04.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/mocha_04.png)
 
 ```
 Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves.
@@ -265,7 +265,7 @@ describe('Test timeout', function() {
 ```
 从下面的输出结果看，第一个测试用例失败了。而第三个用例，因为限时，时间值被标记为了红色。  
 
-![](images/mocha_05.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/mocha_05.png)
 
 
 3. slow
@@ -285,7 +285,7 @@ describe('For compare with Test slow', function() {
 ```
 下面是输出结果：  
 
-![](images/mocha_06.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/mocha_06.png)
 
 有意思的是，本人实际测试时，发现当耗时接近 slow() 函数设定的值的一半时，时间值开始被标记为黄色了。有兴趣的同学可以自己多试几个。
 
@@ -302,7 +302,7 @@ describe('Test pending suit', function() {
 
 在执行时，Mocha 会把这种用例作为 pending 的用例处理，就像 Java 中的 // TODO  
 
-![](images/mocha_07.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/mocha_07.png)
 
 ## skip
 用过 Junit 的都知道，当我们运行一个测试集时，如果需要跳过某个用例时，只需要 加上 @ignore 标签即可。Mocha 也提供了类似的功能。  
@@ -329,7 +329,7 @@ describe('Test skip', function() {
 ```
 跳过的用例会被标记为pending的用例，在报告中也会作为pending用例体现出来。  
 
-![](images/mocha_08.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/mocha_08.png)
 
 
 ## only
@@ -357,4 +357,4 @@ describe('Test only', function() {
 ```
 从下面的结果中，可以发现 only 的使用把 test 文件夹下其他的测试用例全给忽略了，只执行了 only 标记的一个测试集和一个测试用例。  
 
-![](images/mocha_09.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/mocha_09.png)
