@@ -18,7 +18,10 @@
     "mocha_slow": "mocha test/mocha_lesson/07_slow.js",
     "mocha_todo": "mocha test/mocha_lesson/08_todo.js",
     "mocha_skip": "mocha test/mocha_lesson/09_skip.js",
-    "mocha_only": "mocha test/mocha_lesson/10_only.js"
+    "mocha_only": "mocha test/mocha_lesson/10_only.js",
+    "mocha_done_test": "mocha test/async_await/done_test.js",
+    "mocha_ajax": "mocha test/chapter1/asynchronous.js",
+    "mocha_db": "mocha test/chapter1/promise.js"
   },
   "dependencies": {
     "request": ">=2.88.0",
@@ -27,6 +30,7 @@
     "mocha": ">=6.2.2",
     "mochawesome": ">=4.1.0",
     "mongodb": ">=3.4.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "superagent": "^5.1.3"
   }
 }

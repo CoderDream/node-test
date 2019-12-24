@@ -360,3 +360,7 @@ describe('Test only', function() {
 从下面的结果中，可以发现 only 的使用把 test 文件夹下其他的测试用例全给忽略了，只执行了 only 标记的一个测试集和一个测试用例。  
 
 ![](https://github.com/CoderDream/node-test/blob/master/images/mocha_09.png)
+
+
+参考文档：
+1. [使用mocha进行单元测试](https://www.jianshu.com/p/47575895bc54)
