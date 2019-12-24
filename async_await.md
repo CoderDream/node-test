@@ -181,4 +181,4 @@ app.get('/abc', (req, res) => {
 ```
 
 执行结果：                                                                                
-![](/images/async_01.png)
+![](https://github.com/CoderDream/node-test/blob/master/images/async_01.png)
