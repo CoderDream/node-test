@@ -27,6 +27,7 @@
     "mocha_order3": "mocha test/order/03_block_it.js",
     "mocha_order4": "mocha test/order/04_block_describe_it.js",
     "mocha_order5": "mocha test/order/05_nest.js",
+    "mocha_order6": "mocha test/order/06_sleep.js",
     "mocha_order_all": "mocha test/order/*.js"
   },
   "dependencies": {
