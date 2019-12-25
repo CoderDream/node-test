@@ -364,3 +364,4 @@ describe('Test only', function() {
 
 参考文档：
 1. [使用mocha进行单元测试](https://www.jianshu.com/p/47575895bc54)
+2. [mocha的时序问题](https://segmentfault.com/a/1190000002448251)
