@@ -365,3 +365,64 @@ describe('Test only', function() {
 参考文档：
 1. [使用mocha进行单元测试](https://www.jianshu.com/p/47575895bc54)
 2. [mocha的时序问题](https://segmentfault.com/a/1190000002448251)
+
+
+## 顺序问题
+
+1. block的优先级最高；
+2. 其次是describe内，it外的；
+3. 第三是嵌套的describe内的；
+4. 最后是it里面的；
+5. it的执行顺序按照文件名，it书写顺序执行
+
+```
+(base) PS D:\Java\GitHub\node-test> npm run mocha_order_all
+
+> node-test@1.0.0 mocha_order_all D:\Java\GitHub\node-test
+> mocha test/order/*.js
+
+02_block1
+02_describe 1
+02_block2
+02_describe 2
+03_block1
+03_block2
+04_block1
+04_describe 1
+04_block2
+04_describe 2
+05_log child1
+05_log child2
+
+
+  01_work
+01_log it2
+    √ 01_it2
+01_log it1
+    √ 01_it1
+
+  03_1
+03_describe 1
+    √ 03_it1
+
+  03_2
+03_describe 2
+    √ 03_it2
+
+  04_1
+04_it1
+    √ 04_it1
+
+  04_2
+04_it2
+    √ 04_it2
+
+  05_parent
+05_log it1
+    √ 05_1
+05_log it2
+    √ 05_2
+
+
+  8 passing (15ms)
+```

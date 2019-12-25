@@ -2,19 +2,19 @@
 // 规则2：不被describe包裹的部分执行顺序的优先级最高
 
 {
-    console.log('block1');
+    console.log('02_block1');
 }
 
-describe('1', function () {
-    console.log('describe 1');
+describe('02_1', function () {
+    console.log('02_describe 1');
 });
 
 {
-    console.log('block2');
+    console.log('02_block2');
 }
 
-describe('2', function () {
-    console.log('describe 2');
+describe('02_2', function () {
+    console.log('02_describe 2');
 });
 
 //执行顺序block1，describe1，block2，describe2

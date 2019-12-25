@@ -1,16 +1,16 @@
 // 嵌套的describe
-describe('parent', function () {
-    it('1', function () {
-        console.log('log it1');
+describe('05_parent', function () {
+    it('05_1', function () {
+        console.log('05_log it1');
     });
-    describe('child1', function () {
-        console.log('log child1');
+    describe('05_child1', function () {
+        console.log('05_log child1');
     });
-    it('2', function () {
-        console.log('log it2');
+    it('05_2', function () {
+        console.log('05_log it2');
     });
-    describe('child2', function () {
-        console.log('log child2');
+    describe('05_child2', function () {
+        console.log('05_log child2');
     });
 });
 // 执行顺序为it1,it2,child1,child2

@@ -1,11 +1,11 @@
-describe('work',function(){
+describe('01_work',function(){
 
-    it('it2',function (){
-        console.log('log it2');
+    it('01_it2',function (){
+        console.log('01_log it2');
     });
     
-    it('it1',function () {
-        console.log('log it1');
+    it('01_it1',function () {
+        console.log('01_log it1');
     });
 });
 
